@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -121,7 +120,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-3">10 Minute Video Appraisal</h3>
               <p className="text-gray-600">
-                We'll appraise your vehicle over a live video call with your smartphone.
+                We&apos;ll appraise your vehicle over a live video call with your smartphone.
               </p>
             </div>
             
@@ -190,7 +189,7 @@ export default function Home() {
                   <div>
                     <h4 className="font-semibold mb-2 text-gray-900">Final Offer</h4>
                     <p className="text-gray-600">
-                      Representing a dealership to dealership, Car Trackers gives you a final offer instantly after we review your car via a video call. If you don't get any better!
+                      Representing a dealership to dealership, Car Trackers gives you a final offer instantly after we review your car via a video call. If you don&apos;t get any better!
                     </p>
                   </div>
                 </div>
@@ -213,7 +212,7 @@ export default function Home() {
               WE UNDERSTAND HOW BUSY YOU ARE.
             </h2>
             <p className="text-xl opacity-90">
-              That's why we've made selling your car as simple and convenient as possible.
+              That&apos;s why we&apos;ve made selling your car as simple and convenient as possible.
             </p>
           </div>
         </div>
@@ -308,7 +307,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "The whole process was incredibly smooth. I got a fair offer and they picked up my car the same day. Highly recommended!"
+                &ldquo;The whole process was incredibly smooth. I got a fair offer and they picked up my car the same day. Highly recommended!&rdquo;
               </p>
               <div className="font-semibold">
                 <p className="text-gray-900">John S.</p>
@@ -323,7 +322,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "I was skeptical at first, but the offer was better than what I expected from the dealership. Fast and professional service."
+                &ldquo;I was skeptical at first, but the offer was better than what I expected from the dealership. Fast and professional service.&rdquo;
               </p>
               <div className="font-semibold">
                 <p className="text-gray-900">Sarah M.</p>
@@ -338,7 +337,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "No haggling, no hassle. Just a straightforward process and quick payment. Will definitely use again!"
+                &ldquo;No haggling, no hassle. Just a straightforward process and quick payment. Will definitely use again!&rdquo;
               </p>
               <div className="font-semibold">
                 <p className="text-gray-900">Mike R.</p>
@@ -486,7 +485,7 @@ export default function Home() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white border-t border-gray-100">
                   <p className="text-gray-600 leading-relaxed">
-                    No! That's the beauty of our service. We come to you! After the video appraisal, we'll schedule a convenient pickup time and location. You never have to leave your home or drive anywhere.
+                    No! That&apos;s the beauty of our service. We come to you! After the video appraisal, we&apos;ll schedule a convenient pickup time and location. You never have to leave your home or drive anywhere.
                   </p>
                 </div>
               )}
@@ -507,7 +506,7 @@ export default function Home() {
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white border-t border-gray-100">
                   <p className="text-gray-600 leading-relaxed">
-                    It's simple! We'll schedule a 10-minute video call where you'll show us your car using your smartphone. We'll guide you through showing specific areas, and you'll receive your final offer instantly after the call.
+                    It&apos;s simple! We&apos;ll schedule a 10-minute video call where you&apos;ll show us your car using your smartphone. We&apos;ll guide you through showing specific areas, and you&apos;ll receive your final offer instantly after the call.
                   </p>
                 </div>
               )}
@@ -528,7 +527,7 @@ export default function Home() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white border-t border-gray-100">
                   <p className="text-gray-600 leading-relaxed">
-                    Absolutely not! Getting an offer is completely free and there's no obligation to sell. You can get multiple offers and compare them before making any decision. We want you to feel confident in your choice.
+                    Absolutely not! Getting an offer is completely free and there&apos;s no obligation to sell. You can get multiple offers and compare them before making any decision. We want you to feel confident in your choice.
                   </p>
                 </div>
               )}
@@ -549,7 +548,7 @@ export default function Home() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white border-t border-gray-100">
                   <p className="text-gray-600 leading-relaxed">
-                    Once you accept an offer, we'll schedule the pickup and handle all the paperwork. We'll come to your location, complete the transaction, and you'll get paid immediately. The entire process typically takes 24-48 hours.
+                    Once you accept an offer, we&apos;ll schedule the pickup and handle all the paperwork. We&apos;ll come to your location, complete the transaction, and you&apos;ll get paid immediately. The entire process typically takes 24-48 hours.
                   </p>
                 </div>
               )}
@@ -599,7 +598,7 @@ export default function Home() {
               <div className="p-6">
                 <span className="text-orange-500 text-sm font-semibold">15 min read</span>
                 <h4 className="font-semibold mb-2 mt-2 text-black">Efficient repairs, reliable Results, every time here</h4>
-                <p className="text-gray-600 text-sm mb-4">Learn about the most important repairs that can affect your car's value...</p>
+                <p className="text-gray-600 text-sm mb-4">Learn about the most important repairs that can affect your car&apos;s value...</p>
                 <p className="text-orange-500 text-sm font-semibold">READ MORE</p>
               </div>
             </div>
@@ -614,7 +613,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <span className="text-orange-500 text-sm font-semibold">15 min read</span>
-                <h4 className="font-semibold mb-2 mt-2 text-black">We'll get your car back on the road</h4>
+                <h4 className="font-semibold mb-2 mt-2 text-black">We&apos;ll get your car back on the road</h4>
                 <p className="text-gray-600 text-sm mb-4">Find out how we handle car purchases and what makes our process different...</p>
                 <p className="text-orange-500 text-sm font-semibold">READ MORE</p>
               </div>
@@ -631,7 +630,7 @@ export default function Home() {
               <div className="p-6">
                 <span className="text-orange-500 text-sm font-semibold">15 min read</span>
                 <h4 className="font-semibold mb-2 mt-2 text-black">Quality repairs for your car at affordable prices</h4>
-                <p className="text-gray-600 text-sm mb-4">Discover tips for maintaining your vehicle's value before selling...</p>
+                <p className="text-gray-600 text-sm mb-4">Discover tips for maintaining your vehicle&apos;s value before selling...</p>
                 <p className="text-orange-500 text-sm font-semibold">READ MORE</p>
               </div>
             </div>
